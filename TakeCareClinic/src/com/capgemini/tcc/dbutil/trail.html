@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<body>
+<form>
+<input type="number" id="one">
+<input type="text" id="two">
+<button type="button" onclick="msg()">submit</button>
+</form>
+</body>
+<head>
+<script>
+function msg(){
+var a=document.getElementById("one").value;
+var b=document.getElementById("two").value;
+
+if(a===null || b===""){
+	alert("please fill");
+
+}
+else
+{
+window.open("NewWindow.html");
+	
+}}
+</script>
+</head>
+</html>
